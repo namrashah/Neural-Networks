@@ -1,26 +1,3 @@
-#####################################################################################################################
-#   CS 6375.003 - Assignment 3, Neural Network Programming
-#   This is a starter code in Python 3.6 for a 2-hidden-layer neural network.
-#   You need to have numpy and pandas installed before running this code.
-#   Below are the meaning of symbols:
-#   train - training dataset - can be a link to a URL or a local file
-#         - you can assume the last column will the label column
-#   train - test dataset - can be a link to a URL or a local file
-#         - you can assume the last column will the label column
-#   h1 - number of neurons in the first hidden layer
-#   h2 - number of neurons in the second hidden layer
-#   X - vector of features for each instance
-#   y - output for each instance
-#   w01, delta01, X01 - weights, updates and outputs for connection from layer 0 (input) to layer 1 (first hidden)
-#   w12, delata12, X12 - weights, updates and outputs for connection from layer 1 (first hidden) to layer 2 (second hidden)
-#   w23, delta23, X23 - weights, updates and outputs for connection from layer 2 (second hidden) to layer 3 (output layer)
-#
-#   You need to complete all TODO marked sections
-#   You are free to modify this code in any way you want, but need to mention it in the README file.
-#
-#####################################################################################################################
-
-
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder,StandardScaler
